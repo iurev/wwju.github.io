@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Экзотические типы данных в PostgreSQL"
+title:  "Exotic datatypes in PostgreSQL (russian)"
 date:   2014-02-21
 categories: postgresql
 ---

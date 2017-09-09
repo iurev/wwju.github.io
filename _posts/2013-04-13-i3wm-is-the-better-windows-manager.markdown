@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "i3wm - верный помощник"
+title:  "i3wm is my best helper (russian)"
 date:   2013-03-30
 categories: ubuntu i3wm
 ---

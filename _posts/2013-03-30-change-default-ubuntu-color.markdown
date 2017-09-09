@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Как в Ubuntu сменить цвет выделения с оранжевого на любой"
+title:  "How to change default selection color in Ubuntu (russian)"
 date:   2013-03-30
 categories: ubuntu
 ---
