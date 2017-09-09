@@ -1,20 +1,34 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>wwju</title>
+    <description></description>
+    <link>http://wwju.github.io</link>
+    <atom:link href="http://wwju.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Exotic datatypes in PostgreSQL (russian)</title>
+        <description></description>
+        <pubDate>Fri, 21 Feb 2014 00:00:00 +0700</pubDate>
+        <link>http://wwju.github.io/posts/datatypes-in-postgresql</link>
+        <guid isPermaLink="true">http://wwju.github.io/posts/datatypes-in-postgresql</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>i3wm is my best helper (russian)</title>
+        <description></description>
+        <pubDate>Sat, 30 Mar 2013 00:00:00 +0700</pubDate>
+        <link>http://wwju.github.io/posts/i3wm-is-the-better-windows-manager</link>
+        <guid isPermaLink="true">http://wwju.github.io/posts/i3wm-is-the-better-windows-manager</guid>
+      </item>
+    
+      <item>
+        <title>How to change default selection color in Ubuntu (russian)</title>
+        <description></description>
+        <pubDate>Sat, 30 Mar 2013 00:00:00 +0700</pubDate>
+        <link>http://wwju.github.io/posts/change-default-ubuntu-color</link>
+        <guid isPermaLink="true">http://wwju.github.io/posts/change-default-ubuntu-color</guid>
+      </item>
+    
   </channel>
 </rss>
