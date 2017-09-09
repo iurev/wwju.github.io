@@ -13,11 +13,11 @@ rss_enabled: false
 scrollappear_enabled: true # Change to false to disable
 social:
   dribbble: # Add your Dribbble handle
-  facebook: https://www.facebook.com/wwjurew
+  facebook: wwjurew
   flickr: # Add your Flickr handle
-  github: http://github.com/wwju
+  github: wwju
   linkedin: # Add your LinkedIn handle
-  twitter: http://twitter.com/wwjurew
+  twitter: wwjurew
   email: wwjurew@gmail.com
   bitcoin: # Add your Bitcoin link or address
 
